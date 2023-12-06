@@ -29,8 +29,9 @@ public class Praktikum33 {
     }
 
     static void aufrufUndAusgabe() {
-        String s = uebergabe()[0];
-        System.out.println("Eingegeben wurde " + s + ". Dies entspricht der " + umwandlung(uebergabe()));
+        String [] sArray = uebergabe();
+        int ergebnis = umwandlung(uebergabe());
+        System.out.println("Eingegeben wurde " + sArray[0]  + ". Dies entspricht der " + ergebnis + ".");
     }
 
 }
